@@ -1,0 +1,44 @@
+#container{
+    position: relative;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+    height: 50vh;
+    width: 50vh;  
+}
+/* @media only screen and (max-width:700px){
+    #container{
+        justify-content: center;
+    }
+    
+} */
+
+#hour,#minute,#second{
+    position: absolute;
+    background:rgb(1, 15, 26);
+    transform-origin: bottom;
+}
+#hour{
+    height: 32%;
+    width: 2.5%;
+    top: 18%;
+    left: 49.15%;
+    opacity: 0.5;
+    border-radius: 30%;
+    
+}
+#minute{
+    height: 35%;
+    width: 2%;
+    top: 15%;
+    left: 49.4%;
+    opacity: 0.8; 
+    border-radius:34%; 
+}
+#second{
+    height: 40%;
+    width: 1.5%;
+    top: 10%;
+    left: 49.65%;
+    border-radius: 33%;
+}
